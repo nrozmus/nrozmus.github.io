@@ -24,7 +24,7 @@ Pro tip: Name your gem using underscores, for example "weather_check" is the nam
 
 Install it into your library by running **gem install <gem_name>** into your terminal.
 
-<a href="https://imgur.com/T9RDc88"><img src="https://i.imgur.com/T9RDc88.png" title="source: imgur.com" /></a>
+![](https://i.imgur.com/T9RDc88.png)
 
 4. Add your gem dependencies into **weather_check.gemspec.**
 
