@@ -14,7 +14,7 @@ Yup, it's not easy. In fact I spent most of my time looking like the picture abo
 
 **First step: environment setup**
 
-1. Open your terminal and run **bundle gem <file_name>** in your terminal of choice. Remember to CD into your file as well! For some reason I took me a few minutes to figure out. "**cd <file_name>**". This will give you the basic layout of your program.
+1. Open your terminal and run **bundle gem file_name** in your terminal of choice. Remember to CD into your file as well! For some reason I took me a few minutes to figure out. "**cd file_name**". This will give you the basic layout of your program.
 
 Pro tip: Name your gem using underscores, for example "weather_check" is the name of this gem. Using dashes will cause you a lot of pain, we can leave it at that. 
 
@@ -28,7 +28,7 @@ Install it into your library by running **gem install <gem_name>** into your ter
 
 4. Add your gem dependencies into **weather_check.gemspec.**
 
-![](https://ibb.co/c8rXzCB)
+![](https://i.imgur.com/cI5s2my.png)
 
 
 **Second step: Instantiate your classes**
@@ -41,11 +41,11 @@ Install it into your library by running **gem install <gem_name>** into your ter
 
 4. Configure your classes, methods and variables.  In this program we use the `self` method to grab the object we are creating. Create an empty array, point the data from the scraper to it.
 
-![](https://ibb.co/9wXf2d1)
+![](https://i.imgur.com/TSxmT77.png)
 
 5. Set up your CLI, you can use fake data to help test your methods as you go about building your gem. Do anything you can to keep moving, attack the project one task at time. One of the last things you want to do is to think about the big picture, instead keep giving yourself small tasks and knock them out one part at a time. You'll move forward faster, and are less likely to get overwhelmed with the task.
 
-![](https://ibb.co/ft6r7gt)
+![](https://i.imgur.com/0OgiAQa.png)
 
 **Third step: Pull out the targeted data**
 
@@ -53,11 +53,11 @@ Great, for some this might be the hardest step. For other's it might be a cakewa
 
 Anyways, crack open google chrome and inspect your site. Usually right clicking and inspecting will automatically open up the developer tools view and give you the information you need. Be very specific with what you inspect, since it will take you to exactly what you click on and give you the CSS selector that you need to copy.
 
-![](https://ibb.co/9TK4jnz)
+![](https://i.imgur.com/eht4Tho.png)
 
 For this example I pull out `span.large-temp`. *But wait, there's more!* Each CSS selector will have to be tested and manipulated until it spits out just the right answer you are looking for. In my case `span.large-temp` included not only the current temperature but also the temperature's for the rest of the week! How did I narrow it down to just the first temperature? `.first` will output just the first temperature in this case. Be sure to also add your `text.strip` at the end to clean up how the output looks like.
 
-![](https://ibb.co/KwDJVgz)
+![](https://i.imgur.com/WV9cuSn.png)
 
 Here's how the program operates:
 
