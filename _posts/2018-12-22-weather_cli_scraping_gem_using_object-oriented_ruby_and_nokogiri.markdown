@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Weather CLI scraping gem using Object-Oriented Ruby and Nokogiri"
-date:       2018-12-23 01:42:58 +0000
+date:       2018-12-22 20:42:59 -0500
 permalink:  weather_cli_scraping_gem_using_object-oriented_ruby_and_nokogiri
 ---
 
@@ -14,15 +14,15 @@ Yup, it's not easy. In fact I spent most of my time looking like the picture abo
 
 **First step: environment setup**
 
-1. Open your terminal and run ***bundle gem <file_name>*** in your terminal of choice. Remember to CD into your file as well! For some reason I took me a few minutes to figure out. "cd <file_name>". This will give you the basic layout of your program.
+1. Open your terminal and run **bundle gem <file_name>** in your terminal of choice. Remember to CD into your file as well! For some reason I took me a few minutes to figure out. "**cd <file_name>**". This will give you the basic layout of your program.
 
 Pro tip: Name your gem using underscores, for example "weather_check" is the name of this gem. Using dashes will cause you a lot of pain, we can leave it at that. 
 
-2. Open your bin folder and create a new file named ***<your_program_name>.rb***. Make sure it runs and give it proper command privileges by typing ***chmod +x selection.rb*** into your terminal. Run ***ls-lah*** to confirm that the file has changed. This enables you to run your program like a user would, through the bin/<file_name> command. 
+2. Open your bin folder and create a new file named **<your_program_name>.rb**. Make sure it runs and give it proper command privileges by typing **chmod +x selection.rb** into your terminal. Run **ls-lah** to confirm that the file has changed. This enables you to run your program like a user would, through the bin/<file_name> command. 
 
 3.  In the lib/*weather_check.rb*, we can address all the different libraries we will need such as **pry, nokogiri and open-uri.**
 
-Install it into your library by running ***gem install <gem_name>*** into your terminal.
+Install it into your library by running **gem install <gem_name>** into your terminal.
 
 ![](https://ibb.co/qj7Dfkf)
 
