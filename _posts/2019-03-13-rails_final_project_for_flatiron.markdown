@@ -68,7 +68,7 @@ It’s the brains of the application, and ties together the model and the view. 
 
 **Final Product**
 
-![]([Imgur](https://i.imgur.com/aq9yqAN.jpg))
+![](https://i.imgur.com/aq9yqAN.jpg)
 
 
 Remember to utilize your resources, google is a wealth of knowledge. You don't have to know how to do *every little thing* and you can save a ton of time and debugging work by visiting popular coding sites such as Stackoverflow or Github. Don't be afraid to ask questions or get help, whether it's here, a friend, or even a stranger on the internet. Remember that what makes the coding community a powerful force is the open source of most code, allowing not just one person to contribute, but everyone as a whole. That's how technology moves so fast, it's how many new products and software come out (refactoring and rethinking existing code, creating new ideas, etc).  Happy coding!
