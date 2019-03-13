@@ -36,6 +36,6 @@ $ bundle_install
 
 Example of a table to create a hotel reservation.
 
-![](https://imgur.com/TEqgLTN.png)
+![](https://i.imgur.com/TEqgLTN.png)
 
 
