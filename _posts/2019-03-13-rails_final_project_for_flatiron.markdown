@@ -38,4 +38,39 @@ Example of a table to create a hotel reservation.
 
 ![]([Imgur](https://i.imgur.com/TEqgLTN.png))
 
+Use a rake command to run the migration:
+
+$ rake db:create
+
+
+4- **Create Models**
+
+
+Here is an example of my app/models/user.rb file. I have added validations and to secure a password, I included the gem bcrypt in my gemfile .
+
+The **has_secure_password** adds methods to authenticate against a BCrypt password. This mechanism requires you to have a **password_digest attribute**. This is create to secure your app if you are not using gems to secure your app.
+
+![]([Imgur](https://i.imgur.com/cplRv22.png))
+
+
+These validations will ensure that users have a name, password and that they can have many reservations, addresses and rooms.
+
+**5- Create Views**
+
+Remember that views directly interact with the user. This is where I put all the code that makes my app look great, and how my user sees and interacts with it . Here is an example of the topics view folders.
+![]([Imgur](https://i.imgur.com/cLGfokf.png))
+
+**6- Create Controller**
+
+It’s the brains of the application, and ties together the model and the view. Here is where all the actions code goes. 
+
+![]([Imgur](https://i.imgur.com/6NrQsJe.png))
+
+**Final Product**
+
+![]([Imgur](https://i.imgur.com/aq9yqAN.jpg))
+
+
+Remember to utilize your resources, google is a wealth of knowledge. You don't have to know how to do *every little thing* and you can save a ton of time and debugging work by visiting popular coding sites such as Stackoverflow or Github. Don't be afraid to ask questions or get help, whether it's here, a friend, or even a stranger on the internet. Remember that what makes the coding community a powerful force is the open source of most code, allowing not just one person to contribute, but everyone as a whole. That's how technology moves so fast, it's how many new products and software come out (refactoring and rethinking existing code, creating new ideas, etc).  Happy coding!
+
 
