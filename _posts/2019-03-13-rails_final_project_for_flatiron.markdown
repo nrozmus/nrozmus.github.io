@@ -36,7 +36,7 @@ $ bundle_install
 
 Example of a table to create a hotel reservation.
 
-![]([Imgur](https://i.imgur.com/TEqgLTN.png))
+![]((https://i.imgur.com/TEqgLTN.png))
 
 Use a rake command to run the migration:
 
