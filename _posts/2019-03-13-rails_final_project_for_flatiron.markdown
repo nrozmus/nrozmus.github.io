@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails Final Project For FlatIron"
-date:       2019-03-13 04:29:43 +0000
+date:       2019-03-13 00:29:44 -0400
 permalink:  rails_final_project_for_flatiron
 ---
 
@@ -36,6 +36,6 @@ $ bundle_install
 
 Example of a table to create a hotel reservation.
 
-![](https://imgur.com/TEqgLTN)
+![](https://imgur.com/TEqgLTN.png)
 
 
